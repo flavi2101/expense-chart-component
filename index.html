@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Expense chart component" />
+    <title>Expense chart-Component</title>
+  </head>
+  <body>
+    <main>
+      <header role="heading">
+        <h1 aria-level="1">My Balance</h1>
+        <strong role="strong">$921.48</strong>
+        <div class="logo">
+          <span class="white-circle"></span>
+          <span class="black-circle"></span>
+        </div>
+      </header>
+      <section>
+        <h2 aria-level="2">Spending - Last 7 days</h2>
+        <ol role="list">
+          <li role="listitem">
+            <div
+              data-monday-data
+              role="progressbar"
+              aria-valuemin="0"
+              aria-valuenow="10"
+            ></div>
+            <abbr title="monday">mon</abbr>
+          </li>
+          <li role="listitem">
+            <div data-tuesday-data aria-valuemin="0" aria-valuenow="10"></div>
+            <abbr title="tuesday">tue</abbr>
+          </li>
+          <li role="listitem">
+            <div data-wednesday-data aria-valuemin="0" aria-valuenow="10"></div>
+            <abbr title="wednesday">wed</abbr>
+          </li>
+          <li role="listitem">
+            <div data-thursday-data aria-valuemin="0" aria-valuenow="10"></div>
+            <abbr title="thursday">thu</abbr>
+          </li>
+          <li role="listitem">
+            <div data-friday-data aria-valuemin="0" aria-valuenow="10"></div>
+            <abbr title="friday">fri</abbr>
+          </li>
+          <li role="listitem">
+            <div data-saturday-data aria-valuemin="0" aria-valuenow="10"></div>
+            <abbr title="saturday">sat</abbr>
+          </li>
+          <li role="listitem">
+            <div data-sunday-data aria-valuemin="0" aria-valuenow="10"></div>
+            <abbr title="sunday">sun</abbr>
+          </li>
+        </ol>
+      </section>
+      <footer>
+        <h2 aria-level="2">Total this month</h2>
+        <strong>$921.48</strong>
+        <span>+2.4%</span>
+        <p>from last month</p>
+      </footer>
+    </main>
+  </body>
+</html>

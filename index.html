@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Expense chart component" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Expense chart-Component</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+    </style>
   </head>
   <body>
     <main>
       <header role="heading">
         <h1 aria-level="1">My Balance</h1>
         <strong role="strong">$921.48</strong>
-        <div class="logo">
-          <span class="white-circle"></span>
-          <span class="black-circle"></span>
-        </div>
+        <span class="black-circle"></span>
+        <span class="white-circle"></span>
       </header>
       <section>
         <h2 aria-level="2">Spending - Last 7 days</h2>
@@ -59,8 +60,10 @@
       <footer>
         <h2 aria-level="2">Total this month</h2>
         <strong>$921.48</strong>
-        <span>+2.4%</span>
-        <p>from last month</p>
+        <div>
+          <span>+2.4%</span>
+          <p>from last month</p>
+        </div>
       </footer>
     </main>
   </body>

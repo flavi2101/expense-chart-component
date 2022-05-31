@@ -34,6 +34,9 @@ Na manipulação do DOM foi interessante criar algumas funções que puderam ser
 ### Layout web 1
 ![Web 1](https://github.com/flavi2101/expense-chart-component/blob/master/style/design/127.0.0.1_5500_index.html%20(2).png)
 
+### wave information
+![wave](https://github.com/flavi2101/expense-chart-component/blob/master/style/design/Capturar.PNG)
+
 ### Links
 
 [-Solução URL](https://github.com/flavi2101/expense-chart-component)

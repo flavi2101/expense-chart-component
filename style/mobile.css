@@ -42,15 +42,12 @@
   }
 
   header {
-    border-radius: 16px;
-    padding: 16px;
-  }
-
-  header {
     color: hsl(27, 66%, 92%);
     block-size: 20%;
     background-color: hsl(10, 79%, 65%);
     position: relative;
+    border-radius: 16px;
+    padding: 16px;
   }
 
   header h1 {
@@ -130,7 +127,7 @@
     border: 1px solid aqua;
   }
 
-  .tooltip:hover::after{
+  .tooltip:hover::after {
     content: attr(data-value);
     font-size: 0.6rem;
     display: block;

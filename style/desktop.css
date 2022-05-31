@@ -1,0 +1,194 @@
+@media screen and (min-width: 376px) {
+  /*
+### Primary
+
+- Soft red: hsl(10, 79%, 65%)
+- Cyan: hsl(186, 34%, 60%)
+
+### Neutral
+
+- Dark brown: hsl(25, 47%, 15%)
+- Medium brown: hsl(28, 10%, 53%)
+- Cream: hsl(27, 66%, 92%)
+- Very pale orange: hsl(33, 100%, 98%) */
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  html {
+    font-size: 18px;
+    inline-size: 100%;
+    block-size: 100%;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-inline: 16px;
+    padding-block: 48px;
+    inline-size: inherit;
+    block-size: inherit;
+    background-color: hsl(27, 66%, 92%);
+    align-items: center;
+  }
+
+  main {
+    block-size: inherit;
+    inline-size: 38%;
+  }
+
+  header {
+    border-radius: 16px;
+    padding: 16px;
+    color: hsl(27, 66%, 92%);
+    block-size: 20%;
+    background-color: hsl(10, 79%, 65%);
+    position: relative;
+  }
+
+  header h1 {
+    font-size: 0.85rem;
+    padding-block-end: 6px;
+  }
+
+  h1 + strong {
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 100%);
+  }
+
+  header span {
+    position: absolute;
+    border-radius: 100%;
+    block-size: 40px;
+    inline-size: 40px;
+  }
+
+  .white-circle {
+    border: solid 2px hsl(27, 66%, 92%);
+    inset-block-start: 25%;
+    inset-inline-end: 11%;
+  }
+
+  .black-circle {
+    background-color: hsl(25, 47%, 15%);
+    border: solid 2px hsl(25, 47%, 15%);
+    inset-block-start: 25%;
+    inset-inline-end: 5%;
+  }
+
+  section {
+    block-size: 60%;
+    margin-block-start: 16px;
+    background-color: white;
+    border-radius: 16px 16px 0 0;
+    padding: 8px;
+  }
+
+  section h2 {
+    color: hsl(25, 47%, 15%);
+    font-size: 1.2rem;
+    padding-block-end: 8px;
+    font-weight: 700;
+    text-align: justify;
+    padding-inline-start: 4px;
+  }
+
+  ol {
+    list-style-type: none;
+    display: flex;
+    block-size: 85%;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  li {
+    block-size: 92%;
+    inline-size: 10%;
+    text-align: center;
+    align-self: flex-end;
+    position: relative;
+  }
+
+  li > div {
+    border: 1px solid red;
+    inline-size: 100%;
+    block-size: 100%;
+    background-color: red;
+    position: absolute;
+    inset-block-end: 8%;
+  }
+
+  .tooltip:hover {
+    background-color: aqua;
+    border: 1px solid aqua;
+  }
+
+  .tooltip:hover::after {
+    content: attr(data-value);
+    font-size: 0.6rem;
+    display: block;
+    position: absolute;
+    inset-block-start: -32px;
+    font-weight: 700;
+    color: hsl(25, 47%, 15%);
+  }
+
+  abbr {
+    color: hsl(28, 10%, 53%);
+    text-decoration: none;
+    font-size: 0.8rem;
+    position: relative;
+    top: 90%;
+    /* inset-block-end: 0;
+  inset-inline-start: 0; */
+  }
+
+  footer {
+    block-size: 20%;
+    background-color: white;
+    padding-inline: 16px;
+    padding-block-end: 4px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: relative;
+  }
+
+  footer h2 {
+    font-size: 0.6rem;
+    padding-block-end: 4px;
+    color: hsl(28, 10%, 53%);
+  }
+
+  footer h2 + strong {
+    color: hsl(25, 47%, 15%);
+    font-size: 1.3rem;
+    display: inline-block;
+    inline-size: 80%;
+  }
+
+  footer div {
+    position: absolute;
+    inset-inline-end: 24px;
+    inset-block-end: 44px;
+  }
+
+  footer span {
+    font-size: 0.8rem;
+    text-align: end;
+    display: block;
+    font-weight: 600;
+  }
+
+  footer p {
+    display: block;
+    text-align: end;
+    font-size: 0.6rem;
+    color: hsl(28, 10%, 53%);
+  }
+}

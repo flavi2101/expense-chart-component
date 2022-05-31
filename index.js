@@ -15,8 +15,10 @@ function convertToJson(response) {
 
 function dataInformation(data) {
   for (let i = 0; i < data.length; i++) {
-    let value = `${parseInt((data[i].amount * 850) / sizeOfSreen)}px`;
+    let value = `${parseInt((data[i].amount * 650) / sizeOfSreen)}px`;
     weekDay[i].style["block-size"] = value;
+    weekDay[i].setAttribute('data-value', `R$ ${data[i].amount}`)
+
   }
 }
 

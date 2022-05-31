@@ -1,4 +1,4 @@
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 375px) {
   /*
 ### Primary
 
@@ -123,6 +123,21 @@
     background-color: red;
     position: absolute;
     inset-block-end: 8%;
+  }
+
+  .tooltip:hover {
+    background-color: aqua;
+    border: 1px solid aqua;
+  }
+
+  .tooltip:hover::after{
+    content: attr(data-value);
+    font-size: 0.6rem;
+    display: block;
+    position: absolute;
+    inset-block-start: -32px;
+    font-weight: 700;
+    color: hsl(25, 47%, 15%);
   }
 
   abbr {

@@ -1,4 +1,4 @@
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/flavi2101/intro-section-drop-down/blob/master/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/flavi2101/expense-chart-component/blob/master/LICENSE)
 
 ## Sobre o projeto
 
@@ -29,27 +29,16 @@ Na manipulação do DOM foi interessante criar algumas funções que puderam ser
 ### screenshot
 
 ### Layout mobile 1
-![Mobile 1](https://github.com/flavi2101/intro-section-drop-down/blob/master/src/screenshots/mobile_version_3.png)
-
-
-### Layout mobile 2
-![Mobile 2](https://github.com/flavi2101/intro-section-drop-down/blob/master/src/screenshots/mobile_version_2.png)
-
-### Layout mobile 3
-![Mobile 3](https://github.com/flavi2101/intro-section-drop-down/blob/master/src/screenshots/mobile_version_3.png)
-
+![Mobile 1](https://github.com/flavi2101/expense-chart-component/blob/master/style/design/127.0.0.1_5500_index.html%20(1).png)
 
 ### Layout web 1
-![Web 1](https://github.com/flavi2101/intro-section-drop-down/blob/master/src/screenshots/desktop_version_1.png)
-
-### Layout web
-![Web 2](https://github.com/flavi2101/intro-section-drop-down/blob/master/src/screenshots/desktop_version_2.png)
+![Web 1](https://github.com/flavi2101/expense-chart-component/blob/master/style/design/127.0.0.1_5500_index.html%20(2).png)
 
 ### Links
 
-[-Solução URL](https://github.com/flavi2101/intro-section-drop-down)
+[-Solução URL](https://github.com/flavi2101/expense-chart-component)
 
-[-site URL](https://flavi2101.github.io/intro-section-drop-down/)
+[-site URL](https://flavi2101.github.io/expense-chart-component/)
 
 [-Desafio URL](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/hub/intro-section-with-dropdown-navigation-HmFpyt9KwP)
 
@@ -84,6 +73,7 @@ Na manipulação do DOM foi interessante criar algumas funções que puderam ser
 - [Color-Theme](https://css-tricks.com/a-dry-approach-to-color-themes-in-css/)
 - [Serve images](https://web.dev/uses-webp-images/?utm_source=lighthouse&utm_medium=devtools)
 - [Accessibility ](https://wave.webaim.org/)
+- [attr](https://blog.webdevsimplified.com/2019-10/use-data-attributes-in-css/)
 
 
 # Autor

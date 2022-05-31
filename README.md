@@ -1,8 +1,8 @@
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/flavi2101/intro-section-drop-down/blob/master/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/flavi2101/intro-section-drop-down/blob/master/LICENSE)
 
 ## Sobre o projeto
 
-Intro Section é um projeto baseado no desafio do site frontend Mentor (https://www.frontendmentor.io/). O objetivo e testar nosso conhecimento e criar uma página tão similar quanto possível pela proposta pelo site
+Expense chart component é um projeto baseado no desafio do site frontend Mentor (https://www.frontendmentor.io/). O objetivo e testar nosso conhecimento e criar uma página tão similar quanto possível pela proposta pelo site
 
 
 ## Table of contents
@@ -24,7 +24,7 @@ Intro Section é um projeto baseado no desafio do site frontend Mentor (https://
 ### Desafio
 
 Aprimorar o uso de flexbox e position absolute foram os maiores desafios nesse projet, pois começar a ter estruturas repetidas dentro de outras estruturas.
-Na manipulação do DOM foi interessante criar algumas funções que puderam ser reaproveitadas para interagir com o usuário.
+Na manipulação do DOM foi interessante criar algumas funções que puderam ser reaproveitadas para interagir com o usuário. Também foi um novo desafio usar a função fetch para inserir dados dentro da DOM através de um arquivo local .JSON
 
 ### screenshot
 

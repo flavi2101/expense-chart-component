@@ -109,22 +109,30 @@
     padding: 0;
   }
   li {
-    block-size: inherit;
+    block-size: 92%;
     inline-size: 10%;
     text-align: center;
-    align-self: stretch;
+    align-self: flex-end;
+    position: relative;
   }
 
   li > div {
     border: 1px solid red;
     inline-size: 100%;
     block-size: 100%;
+    background-color: red;
+    position: absolute;
+    inset-block-end: 8%;
   }
 
   abbr {
     color: hsl(28, 10%, 53%);
     text-decoration: none;
     font-size: 0.8rem;
+    position: relative;
+    top: 90%;
+    /* inset-block-end: 0;
+    inset-inline-start: 0; */
   }
 
   footer {
